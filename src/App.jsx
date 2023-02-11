@@ -1,13 +1,25 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import "./App.css";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { Home, Product, Products } from "./pages";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Home />,
+  },
+  {
+    path: "/products/:id",
+    element: <Products />,
+  },
+  {
+    path: "/product/:id",
+    element: <Product />,
+  },
+]);
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <div>
-      <h1>Lama shop</h1>
+      <RouterProvider router={router} />
     </div>
   );
 }
