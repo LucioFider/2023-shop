@@ -23,30 +23,46 @@ const Navbar = () => {
             <ChevronDownIcon className="nav-icon" />
           </div>
           <div className="item">
-            <Link to="/products/1">Women</Link>
+            <Link className="link" to="/products/1">
+              Women
+            </Link>
           </div>
           <div className="item">
-            <Link to="/products/2">Men</Link>
+            <Link className="link" to="/products/2">
+              Men
+            </Link>
           </div>
           <div className="item">
-            <Link to="/products/3">Children</Link>
+            <Link className="link" to="/products/3">
+              Children
+            </Link>
           </div>
         </div>
         <div className="center">
-          <Link to="/">Sello Theme</Link>
+          <Link className="link" to="/">
+            Sello Theme
+          </Link>
         </div>
         <div className="right">
           <div className="item">
-            <Link to="/">Home</Link>
+            <Link className="link" to="/">
+              Home
+            </Link>
           </div>
           <div className="item">
-            <Link to="/">About</Link>
+            <Link className="link" to="/">
+              About
+            </Link>
           </div>
           <div className="item">
-            <Link to="/">Contact</Link>
+            <Link className="link" to="/">
+              Contact
+            </Link>
           </div>
           <div className="item">
-            <Link to="/">Stores</Link>
+            <Link className="link" to="/">
+              Stores
+            </Link>
           </div>
           <div className="icons">
             <MagnifyingGlassIcon className="nav-icon" />
