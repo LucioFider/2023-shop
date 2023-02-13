@@ -1,5 +1,10 @@
 import React from "react";
-import { FeaturedProducts, Slider } from "../../components";
+import {
+  FeaturedProducts,
+  Slider,
+  Categories,
+  Contact,
+} from "../../components";
 import "./home.scss";
 
 const Home = () => {
@@ -7,7 +12,9 @@ const Home = () => {
     <div className="home">
       <Slider />
       <FeaturedProducts type="featured" />
+      <Categories />
       <FeaturedProducts type="trending" />
+      <Contact />
     </div>
   );
 };
