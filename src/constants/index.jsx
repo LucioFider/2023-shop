@@ -112,3 +112,21 @@ export const listProducts = [
 ];
 
 export const images = [feat01, feat02];
+export const cartItems = [
+  {
+    id: 1,
+    img: feat01,
+    title: "Fashion",
+    oldPrice: 30,
+    price: 28,
+    desc: "This is the info about the product.",
+  },
+  {
+    id: 2,
+    img: feat02,
+    title: "Fashion",
+    oldPrice: 60,
+    price: 48,
+    desc: "This is the info about the product.",
+  },
+];

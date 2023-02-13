@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import {
   ChevronDownIcon,
   MagnifyingGlassIcon,
@@ -8,8 +8,10 @@ import {
 } from "@heroicons/react/24/outline";
 import "./navbar.scss";
 import { Link } from "react-router-dom";
+import Cart from "../Cart/Cart";
 
 const Navbar = () => {
+  const [open, setOpen] = useState(false);
   return (
     <div className="navbar">
       <div className="wrapper">
@@ -68,13 +70,14 @@ const Navbar = () => {
             <MagnifyingGlassIcon className="nav-icon" />
             <UserIcon className="nav-icon" />
             <HeartIcon className="nav-icon" />
-            <div className="cartIcon">
+            <div className="cartIcon" onClick={() => setOpen(!open)}>
               <ShoppingCartIcon className="nav-icon" />
               <span>0</span>
             </div>
           </div>
         </div>
       </div>
+      {open && <Cart />}
     </div>
   );
 };
