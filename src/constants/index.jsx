@@ -110,3 +110,5 @@ export const listProducts = [
     price: 28,
   },
 ];
+
+export const images = [feat01, feat02];
