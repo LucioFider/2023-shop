@@ -2,8 +2,7 @@
   height: calc(100vh - 80px);
   width: 100vw;
   scroll-behavior: smooth;
-  background-color: #e9ecef;
-
+  overflow: hidden;
   position: relative;
 
   .container {

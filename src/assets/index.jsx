@@ -12,6 +12,9 @@ import feat05 from "./feat05.png";
 import feat06 from "./feat06.png";
 import feat07 from "./feat07.png";
 import feat08 from "./feat08.png";
+import prod01 from "./prod01.png";
+import slide1 from "./slide1.png";
+import featImg from "./feat-img.png";
 
 export {
   product1,
@@ -28,4 +31,7 @@ export {
   feat06,
   feat07,
   feat08,
+  prod01,
+  slide1,
+  featImg,
 };

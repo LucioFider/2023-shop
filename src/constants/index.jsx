@@ -5,6 +5,14 @@ import {
   product4,
   product5,
   product6,
+  feat01,
+  feat02,
+  feat03,
+  feat04,
+  feat05,
+  feat06,
+  feat07,
+  feat08,
 } from "../assets";
 
 export const featuredProducts = [
@@ -35,6 +43,68 @@ export const featuredProducts = [
   {
     id: 4,
     img: product6,
+    title: "Fashion",
+    oldPrice: 30,
+    price: 28,
+  },
+];
+
+export const listProducts = [
+  {
+    id: 1,
+    img: feat01,
+    img2: feat02,
+    title: "Skirt",
+    isNew: true,
+    oldPrice: 20,
+    price: 18,
+  },
+  {
+    id: 2,
+    img: feat03,
+    title: "Coat",
+    isNew: true,
+    oldPrice: 30,
+    price: 17,
+  },
+  {
+    id: 3,
+    img: feat04,
+    title: "Shirt",
+    oldPrice: 28,
+    price: 26,
+  },
+  {
+    id: 4,
+    img: feat05,
+    title: "Fashion",
+    oldPrice: 30,
+    price: 28,
+  },
+  {
+    id: 5,
+    img: feat06,
+    title: "Fashion",
+    oldPrice: 30,
+    price: 28,
+  },
+  {
+    id: 6,
+    img: feat07,
+    title: "Fashion",
+    oldPrice: 30,
+    price: 28,
+  },
+  {
+    id: 7,
+    img: feat08,
+    title: "Fashion",
+    oldPrice: 30,
+    price: 28,
+  },
+  {
+    id: 8,
+    img: feat02,
     title: "Fashion",
     oldPrice: 30,
     price: 28,
