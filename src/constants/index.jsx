@@ -1,30 +1,40 @@
+import {
+  product1,
+  product2,
+  product3,
+  product4,
+  product5,
+  product6,
+} from "../assets";
+
 export const featuredProducts = [
   {
     id: 1,
-    img: "../assets/product1.jpg",
-    img2: "./assets/product5.jpg",
+    img: product1,
+    img2: product5,
     title: "Skirt",
+    isNew: true,
     oldPrice: 20,
     price: 18,
   },
   {
     id: 2,
-    img: "../assets/product2.jpg",
-    img2: "../assets/product6.jpg",
-    title: "Dress",
+    img: product2,
+    title: "Coat",
+    isNew: true,
     oldPrice: 30,
     price: 17,
   },
   {
     id: 3,
-    img: "../assets/product3.jpg",
+    img: product3,
     title: "Shirt",
     oldPrice: 28,
     price: 26,
   },
   {
     id: 4,
-    img: "../assets/product4.jpg",
+    img: product6,
     title: "Fashion",
     oldPrice: 30,
     price: 28,

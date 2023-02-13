@@ -40,7 +40,7 @@ const Navbar = () => {
         </div>
         <div className="center">
           <Link className="link" to="/">
-            Sello Theme
+            Sello-Theme
           </Link>
         </div>
         <div className="right">
